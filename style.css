@@ -1,0 +1,37 @@
+/* Durante o estudo de css, utilizar o marcador do html inteiro para ver o tamanho da caixa de todos os intens da página,
+*{
+    border: 1px solid red; 
+} 
+isso ajuda  a ter uma dimensao do item onde sera feita a estilização, ou pode usar essa marcação em um item especifico.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+*, :root{
+ 
+
+  font-family: 'Montserrat', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main{
+  padding: 20px;
+  max-width: 648px;
+  margin: 0 auto 64px;
+}
+
+#acertos {
+  text-align: center;
+  background-color: #A4E635;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  padding: 10px;
+  width: 100%;
+}
